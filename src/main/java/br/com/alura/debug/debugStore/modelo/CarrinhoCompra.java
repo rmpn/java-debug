@@ -40,6 +40,7 @@ public class CarrinhoCompra {
 				total = total.subtract(produto.getPreco());
 			}
 		}
+		
 		return total;
 	}
 
